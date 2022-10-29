@@ -1,8 +1,8 @@
 {
-  "homepage": "http://ronyAhmed1200.github.io/quiz-game",
+  "homepage": "https://ronyAhmed1200.github.io/quiz-game",
   "name": "quiz-game",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
