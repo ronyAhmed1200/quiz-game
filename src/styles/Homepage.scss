@@ -1,0 +1,43 @@
+// fonts
+@import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@400;700&family=Supermercado+One&display=swap");
+
+$homepageBg: crimson;
+$headerBg: blue;
+$cardBg: rgb(246, 246, 246);
+$cardtext: rgba(20, 19, 19, 0.555);
+
+@mixin flexCenter($direction, $align) {
+  display: flex;
+  align-items: $align;
+  justify-content: center;
+  flex-direction: $direction;
+}
+
+// Home page styling
+
+.homepage {
+  color: $cardBg;
+  .homepage-bg {
+    background-image: url(https://images.unsplash.com/photo-1513151233558-d860c5398176?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxfDB8MXxhbGx8fHx8fHx8fA&ixlib=rb-1.2.1&q=80&w=1080&utm_source=unsplash_source&utm_medium=referral&utm_campaign=api-credit);
+    filter: blur(40px);
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .homepage-content {
+    @include flexCenter(column, center);
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    z-index: 2;
+    h1 {
+      font-family: "Rowdies", cursive;
+      // font-family: "Supermercado One", cursive;
+      // font-size: 60px;
+      // font-weight: 700;
+    }
+  }
+}

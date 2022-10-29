@@ -1,0 +1,32 @@
+@import "./../styles/Homepage.scss";
+.quizlist {
+  min-height: 5vh;
+  width: 90vw;
+  @include flexCenter(column, center);
+}
+
+.questions {
+  // overflow: hidden;
+  background-color: #333333;
+  color: #f5f5f5;
+
+  .question-container {
+    padding: 1rem 2rem;
+  }
+
+  .answer ul {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 1rem;
+  }
+}
+
+.icon {
+  margin-right: 10px;
+  color: red;
+}
+
+svg,
+img {
+  display: inline-block;
+}
