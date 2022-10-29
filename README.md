@@ -2,7 +2,7 @@
 
 This is a quiz game (project no. 1) which is created with react, redux and tailwind.
 
-![Try some quiz](https://ronyahmed1200.github.io/quiz-game/)
+[Try some quiz](https://ronyahmed1200.github.io/quiz-game/)
 
 For a working tailwind, follow the docs of tailwind with create-react-app. Otherwise it doesn't work.
 
