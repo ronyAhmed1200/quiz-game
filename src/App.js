@@ -8,8 +8,8 @@ export default function App() {
   return (
     <>
       <Routes>
-        <Route exact path="/" element={<Homepage />} />
-        <Route path="/score" element={<Scorepage />} />
+        <Route path="/" element={<Homepage />} />
+        <Route exact path="/score" element={<Scorepage />} />
       </Routes>
     </>
   );
